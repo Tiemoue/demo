@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Easy Closet</string>
+    <string name="add_items_to_closet">Add items to Closet</string>
+    <string name="suggest_fragment">Suggest fragment</string>
+    <string name="enter_your_city_name">Enter Your City Name</string>
+    <string name="humidity">Humidity</string>
+    <string name="dash">—</string>
+    <string name="min_temperature">Min Temperature</string>
+    <string name="max_temperature">Max Temperature</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="done">Done</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="closet_fragment">Closet Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="msg">Good Morning</string>
+    <string name="add_clothes">Add clothes</string>
+    <string name="facebook_app_id">4644553298981631</string>
+    <string name="google_maps_api_key">AIzaSyB7riUUTq3f6SsaG5F9-_7VcU8y75YRp-Q</string>
+    <string name="weather_Api_key">942dd77fa358eb3439a8212cb16724cd</string>
+    <string name="seprei_api_key">c378c610f455bddbc77ecc5457fc71d6637de8ef39c83c38e903a30212135552</string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload">upload</string>
+    <string name="take_picture">take picture</string>
+    <string name="enter_a_colour">Enter a colour</string>
+    <string name="textview">textview</string>
+    <string name="back_to_closet">Back to Closet</string>
+    <string name="colour">Colour:</string>
+    <string name="category">Category:</string>
+    <string name="date_added">Date Added:</string>
+    <string name="feet">FEET</string>
+    <string name="bottom_layer">BOTTOM LAYER</string>
+    <string name="base_layer">BASE LAYER</string>
+    <string name="outer_layer">OUTER LAYER</string>
+    <string name="not_found_foot">Recommended Foot wear not found</string>
+    <string name="bottom_not_found">Recommended Bottom Layer not found</string>
+    <string name="base_not_found">Recommended Base Layer not found</string>
+    <string name="outer_not_found">Recommended Outer Layer not found</string>
+    <string name="username_profile">Username :</string>
+    <string-array name="category">
+        <item>Pants</item>
+        <item>Sweater</item>
+        <item>Hoodie</item>
+        <item>Joggers</item>
+        <item>Shorts</item>
+        <item>Boots</item>
+        <item>Sneakers</item>
+        <item>Slides</item>
+        <item>Jacket</item>
+        <item>Coat</item>
+        <item>T-shirt</item>
+    </string-array>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#FF5722</color>
+    <string name="login">Login</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s get you dressed</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="swipe_left_for_register">swipe left for register</string>
+    <string name="_75f">75F</string>
+    <string name="todo">TODO</string>
+    <string name="coat">Coat</string>
+    <string name="jacket">Jacket</string>
+    <string name="sweater">Sweater</string>
+    <string name="hoodie">Hoodie</string>
+    <string name="t_shirt">T-shirt</string>
+    <string name="joggers">Joggers</string>
+    <string name="pants">Pants</string>
+    <string name="shorts">Shorts</string>
+    <string name="boots">Boots</string>
+    <string name="sneakers">Sneakers</string>
+    <string name="slides">Slides</string>
+    <string name="facebook_client_token">51da30ceff2e3f10938b49ebdcc81260</string>
+    <string name="top_pick">Top Pick</string>
+    <string name="feed">Feed</string>
+    <string name="main">Main</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="closet">Closet</string>
+    <string name="profile">Profile</string>
+    <string name="not_available">NOT AVAILABLE</string>
+</resources>
+

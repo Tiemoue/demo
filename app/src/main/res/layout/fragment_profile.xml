@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.ProfileFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ibProfileImg"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="40dp"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dash"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_location_on_24" />
+
+
+        <TextView
+            android:id="@+id/tvProfileCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dash"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp"
+        android:text="Items:   "
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCoats"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/coat" />
+
+            <TextView
+                android:id="@+id/tvCoatsCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivJacket"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/jacket" />
+
+            <TextView
+                android:id="@+id/tvJacketCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivSweaterProfile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/sweater" />
+
+            <TextView
+                android:id="@+id/tvSweaterCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivHoodies"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/hoodie" />
+
+            <TextView
+                android:id="@+id/tvHoodiesCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivTshirts"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/shirt" />
+
+            <TextView
+                android:id="@+id/tvTshirtCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivPantss"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pant" />
+
+            <TextView
+                android:id="@+id/tvPantsCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivJoggers"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/joggers" />
+
+            <TextView
+                android:id="@+id/tvJoggersCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivShorts"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/shorts" />
+
+            <TextView
+                android:id="@+id/tvShortsCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/ivSneakers"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/sneakers" />
+
+            <TextView
+                android:id="@+id/tvSneakerCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/ivBoots"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/boots" />
+
+            <TextView
+                android:id="@+id/tvBootsCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/ivSlides"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/slides" />
+
+            <TextView
+                android:id="@+id/tvSlidesCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_feed"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_feed_24"
+        android:title="@string/feed"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_main"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/main"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_suggest"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_checkroom_24"
+        android:title="@string/suggestions"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_closet"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_curtains_closed_24"
+        android:title="@string/closet"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom" />
+</menu>
